@@ -68,6 +68,7 @@ export default {
     }
 
     // 4. 准备数据和配置项
+    console.log("打印",res.data)
     const result = _.merge(res.data, this.options)
 
     // 5. 展示数据
